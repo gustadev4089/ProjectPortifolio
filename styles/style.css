@@ -378,3 +378,31 @@ div.area_awards > div{
     width: 150px;
     height: 150px;
 }
+
+@media screen and (max-width: 800px){
+    div.container-menu-side-bar{
+        display: none;
+    }
+
+    div#scroll-main{
+        width: calc(100%);
+        left: 0px;
+    }
+    
+    header.container-header{
+        border-bottom: 0;
+    }
+
+    header div.area{
+        display: none;
+        
+    }
+
+}
+
+/* Classes para tela responsiva menor que 800px */
+
+
+
+
+/* Final das classes para tela responsiva menor de 800px  */

@@ -1,5 +1,4 @@
 
-
 const sec_about = document.querySelector("#about");
 const sec_experience = document.querySelector("#experience");
 const sec_education = document.querySelector("#education");
@@ -44,7 +43,7 @@ const intersection = new IntersectionObserver((entries,)=>{ // <-- Função cria
             })
         }
     })
-}, {threshold: 0.3, root: document.querySelector("#scroll-main")} );
+}, {threshold: 0.27, root: document.querySelector("#scroll-main")} );
 
 
 
@@ -59,7 +58,6 @@ const on_scroll = ()=>{
 
 
 window.addEventListener("scroll" , on_scroll(), {once: false});
-
 
 
 
